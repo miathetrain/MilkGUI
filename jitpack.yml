@@ -3,3 +3,7 @@ jdk:
 
 before_install:
   - mvn -v
+
+install:
+   - echo "Running a custom install command"
+   - ./mvnw clean install
